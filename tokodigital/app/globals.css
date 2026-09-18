@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #151322;
+  color: #EFEDF9;
+}
+
+::selection {
+  background-color: #6C5CE7;
+  color: white;
+}
+
+.container-page {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.card {
+  background-color: #1C1930;
+  border: 1px solid #332D54;
+  border-radius: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #6C5CE7;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  transition: background-color 0.15s ease;
+}
+.btn-primary:hover {
+  background-color: #4E3FC7;
+}
+
+.btn-outline {
+  border: 1px solid #332D54;
+  color: #EFEDF9;
+  border-radius: 0.75rem;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+.btn-outline:hover {
+  border-color: #6C5CE7;
+  background-color: #252140;
+}
+
+.input-field {
+  width: 100%;
+  background-color: #151322;
+  border: 1px solid #332D54;
+  border-radius: 0.75rem;
+  padding: 0.65rem 0.9rem;
+  color: #EFEDF9;
+}
+.input-field:focus {
+  outline: none;
+  border-color: #8B7CF6;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
